@@ -58,12 +58,11 @@ Edit
 !chmod 600 ~/.kaggle/kaggle.json
 !kaggle datasets download -d gauravtopre/bank-customer-churn-dataset
 !unzip bank-customer-churn-dataset.zip
-
+```
 📈 Results Snapshot
 Dataset Type	Accuracy	Notes
 Original	~0.79	Real training data
 Synthetic	~0.76	From TVAE generation
-
 These numbers are for demonstration only. Run the notebook for actual performance results.
 
 📊 Visuals Included
