@@ -47,11 +47,9 @@ Install required Python packages:
 
 ```bash
 pip install kaggle sdv scikit-learn pandas matplotlib seaborn torch torchvision torchaudio
+
 To download the dataset programmatically, ensure your kaggle.json is placed correctly:
 
-python
-Copy
-Edit
 # Place kaggle.json in the current directory, then run:
 !mkdir -p ~/.kaggle
 !cp kaggle.json ~/.kaggle/
